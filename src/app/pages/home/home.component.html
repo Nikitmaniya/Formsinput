@@ -1,0 +1,30 @@
+<ul>
+    <li *ngFor="let product of products">
+        <h2> {{product.name}} / ${{product.price}}</h2>
+        <p> {{product.description}} {{product.quantity}} </p>
+    </li>
+</ul>
+<h1>Service demo:-</h1>
+<h1>
+    {{data}}
+</h1>
+
+<ul *ngFor="let gg of Biodata">
+    <li>{{gg.name}}</li>
+    <li>{{gg.age}}</li>
+    <li>{{gg.height}}</li>
+</ul>
+
+<table border="2" align="center">
+    <tr>
+        <td>Name</td>
+        <td>Age</td>
+        <td>Height</td>
+    </tr>
+    <tr *ngFor="let gg of Biodata">
+        <td>{{gg.name}}</td>
+        <td>{{gg.Age}}</td>
+        <td>{{gg.height}}</td>
+
+    </tr>
+</table>

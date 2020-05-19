@@ -1,0 +1,25 @@
+nav {
+    border: 1px;
+    background-color: #090;
+    color: white;
+    padding: 6px;
+}
+
+acacacadcszc a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.gfg {
+    font-size: 40px;
+    color: #090;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav_tag {
+    text-align: center;
+    margin: 30px 0;
+    align-self: start;
+}
